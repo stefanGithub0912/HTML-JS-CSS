@@ -1,0 +1,23 @@
+#hint{
+    align-items: center;
+    color:red;
+    font-weight: 200;
+    margin-top: 400px;
+    margin-left: 800px;
+
+}
+#hiddenBtn{
+    background-color: white;
+    border-color: white;
+    position: absolute;
+    top: 3%;
+    right: 260px;
+    width: 3px ;
+    height: 4px ;
+    font-size: 3px;
+}
+body{
+    height:525px;
+    background:linear-gradient(to right,black,lightgray,gray,lightgray,black,white,white,black,lightgray,gray,lightgray,black,white,white,black,lightgray,gray,lightgray,black,lightgray,gray,lightgray,black,white,white,black,lightgray,gray,lightgray,black,white,white,black,lightgray,gray,lightgray,black,white,white,black,lightgray,gray,lightgray,black,white,white,black,lightgray,gray,lightgray,black,white,white) ;
+
+}

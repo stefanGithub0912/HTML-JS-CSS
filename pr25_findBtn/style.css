@@ -1,0 +1,12 @@
+#hint{
+    align-items: center;
+    font-weight: 200;
+    margin-top: 400px;
+    margin-left: 800px;
+
+}
+#hiddenBtn{
+    margin-left: 1700px;
+    background-color: white;
+    border-color: rgb(255, 255, 255);
+}

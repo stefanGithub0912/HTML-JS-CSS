@@ -1,0 +1,25 @@
+body{
+    font-size: 28px;
+    font-weight: 600;
+    background: linear-gradient(to left,white,rgb(115, 188, 241))
+}
+#rndm{
+    border-color: aqua;
+    border: 3px solid;
+    border-radius:7px;
+    background-color: antiquewhite;
+    height: 40px;
+    font-size:29px;
+    font-weight: 600;
+}
+#rndm:hover{
+    background-color: lightgray;
+}
+#submit{
+    border-color: lightgreen;
+    border: 3px solid;
+    border-radius:7px;
+    background-color: antiquewhite;
+    font-size:29px;
+    font-weight: 600;
+}

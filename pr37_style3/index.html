@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Style 3</title>
+</head>
+<body>
+    <script>
+        buttonDefault = document.createElement("button")
+        buttonDefault.innerHTML = "...";
+        document.body.appendChild(buttonDefault);
+        buttonDefault.id = "btn1";
+        rndBtn = document.getElementById("btn1");
+        rndBtn.addEventListener('click' , () => {
+            text = document.createElement("text")
+            text.innerHTML = "HBD! Ohh wait , you dont have one! Well check next project";
+            document.body.appendChild(text);
+            
+
+        });
+    </script>
+</body>
+</html>

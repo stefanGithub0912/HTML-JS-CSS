@@ -1,0 +1,37 @@
+#btn1{
+    margin-top: 20%;
+    margin-left: 45%;
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(to left , rgb(57, 57, 240) , rgb(37, 37, 117) , rgb(21, 21, 43));
+    border: 3px solid rgb(33, 33, 33);
+    border-radius: 100%;
+}
+#btn1:hover{
+    background: linear-gradient(to left , rgb(51, 51, 236) , rgb(106, 106, 229) , rgb(192, 192, 226));
+}
+body{
+    background: linear-gradient(to left , black,rgb(36, 36, 36) ,rgb(88, 88, 88),rgb(111, 111, 111),rgb(168, 168, 168),rgb(238, 238, 238));
+}
+
+#no{
+    font-size: 18px;
+    font-weight: 600;
+    height: 30px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 7px;
+    background-color: red;
+}
+#yes{
+    font-size: 18px;
+    font-weight: 600;
+    height: 30px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 7px;
+    background-color: rgb(37, 168, 37);
+    
+}

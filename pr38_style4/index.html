@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Style 4</title>
+</head>
+<body id="body">
+    <script>
+        body = document.getElementById("body");
+        buttonDefault = document.createElement("button")
+        buttonDefault.innerHTML = "...";
+        document.body.appendChild(buttonDefault);
+        buttonDefault.id = "btn1";
+        rndBtn = document.getElementById("btn1");
+        rndBtn.addEventListener('click' , () => {
+            text = document.createElement("text")
+            text.innerHTML = "Do you have a birtday today? ---> ";
+            text.id = "text";
+
+            document.body.appendChild(text);
+            yes = document.createElement("button")
+            yes.innerHTML = "Yes";
+            document.body.appendChild(yes);
+            yes.id = "yes";
+            yesBtn = document.getElementById("yes");
+            yesBtn.addEventListener('click' , () =>{
+                alert("HBD! I wish you to be healthy , happy and completing the goals you set! Have a nice day!");
+                body.style.display = 'none';
+            });
+
+            no = document.createElement("button")
+            no.innerHTML = "No";
+            document.body.appendChild(no);
+            no.id = "no";
+            noBtn = document.getElementById("no");
+            noBtn.addEventListener('click' , () =>{
+                alert("Then I wish you a nice day and goodbye");
+                body.style.display = 'none';
+            });
+
+        });
+    </script>
+</body>
+</html>

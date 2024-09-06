@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+}
+/*to put multiple animations use- , */
+#blue{
+    margin-top: 350px;
+    margin-left: 800px;
+    animation-name: slideRight,jumpRed;
+    animation-duration: 3s , 5s;
+}
+#red{
+    margin-top: 350px;
+    margin-right: 800px;
+    animation-name: slideLeft , fadeRed;
+    animation-duration: 3s , 5s;
+
+}
+@keyframes slideLeft{
+    from{transform: translateX(900px);}
+}
+@keyframes slideRight{
+    from{transform: translateX(-900px);}
+}
+@keyframes fadeRed{
+    to{opacity: 0;}
+}
+@keyframes jumpRed{
+    from{transform: translateX(-300px);}
+}

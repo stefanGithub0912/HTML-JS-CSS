@@ -1,0 +1,20 @@
+body{
+    font-size: 28px;
+    font-weight: 600;
+    background: linear-gradient(to left,white,rgb(195, 139, 225))
+}
+#ceil{
+    display: none;
+}
+#btn1{
+    border-color: aqua;
+    border: 3px solid;
+    border-radius:7px;
+    background-color: antiquewhite;
+    height: 40px;
+    font-size:29px;
+    font-weight: 600;
+}
+#btn1:hover{
+    background-color: lightgray;
+}

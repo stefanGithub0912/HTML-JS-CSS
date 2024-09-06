@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Style 5</title>
+</head>
+<body id="body">
+    <script>
+        buttonDefault = document.createElement("button")
+        buttonDefault.innerHTML = "...";
+        document.body.appendChild(buttonDefault);
+        buttonDefault.id = "btn1";
+        rndBtn = document.getElementById("btn1");
+
+        rndBtn.addEventListener('click' , () => {
+            tmp = document.getElementById("date");
+            
+            if(tmp != null){
+                tmp.remove();
+            }
+            area = document.createElement("input");
+            area.innerHTML = 'Date of birth';
+            area.id = 'date';
+            area.placeholder = "Year of birth";
+            document.body.appendChild(area);
+            
+
+
+            subm = document.getElementById('submit');
+            if(subm != null){
+                subm.remove();
+            }
+            submit = document.createElement("button");
+            submit.innerHTML = 'Submit';
+            document.body.appendChild(submit);
+            
+            submit.id = 'submit';
+            submit.setAttribute("value", "Submit");
+            submitBtn = document.getElementById("submit");
+            submitBtn.addEventListener('click' , () =>{
+                let date = document.getElementById("date").value;
+                if(date < 1900 || date > 2024){
+                    alert("Invalid input");
+                }else{
+                    alert("You are "+ (2024 - date));
+                }
+            });
+
+
+
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+#hint{
+    align-items: center;
+    font-weight: 200;
+    margin-top: 400px;
+    margin-left: 800px;
+
+}
+#hiddenBtn{
+    background-color: gray;
+    border-color: gray;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 5px;
+}
+body{
+    height:525px;
+    background:linear-gradient(to bottom,gray,lightgray,white,lightblue,rgb(121, 136, 202),blue,darkblue) ;
+
+}

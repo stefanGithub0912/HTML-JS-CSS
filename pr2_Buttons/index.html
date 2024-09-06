@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="form-box">
+
+        <div class="screen1" id="screen1">
+            <button id="1">Hello(This is a useless button)</button>
+            <button id="button">Click me</button>
+            <input type="checkbox" id="2" onclick="myFunction()">
+            <p id="text" style="display:none">.</p>
+            <input id="button1" type="text" name="1st name" placeholder="This is with input(nothing happens)"/>
+            <input type="password" placeholder="idk" id="3">
+            <input type="submit" id="4">
+            <input type="color" id="5">
+        
+            <!--Calendar to choose a custom date(Important)-->
+            <input type="date"id="6">
+            <!--Add a file-->
+            <input type="file"id="7">
+            <input type="number"id="8">
+        
+            <input type="time"id="9">
+            <h1 id="h1" class="text1">Wanna switch it up?</h1>
+            <p id = 10 class="text1">Some parts are missed but they are in sourse code</p>
+        </div>
+
+        <!--Screen 2 -->
+        <div class="screen2" id="screen2">
+            <button id="r1" class="Useless hi">Hello! (This is a useless button)</button>
+            <button id="alertbt" class="hi">Hi button</button>
+
+            <div class="Signup">
+                <h1>Tell us more about you</h1>
+                <div>
+                    <input class="r8 center-placeholder" type="text" name="1st name" placeholder="Name" style="margin-top: 1px;"/>
+                </div>
+                <div>
+                    <input type="number"class="r8 center-placeholder" placeholder="Favorite number">
+                </div>
+                <div>
+                    <input type="color" class="r8 color-choice" >
+                </div>
+                <div>
+                    <input type="date"class="r8">
+                </div>
+                <div>
+                    <input type="time"class="r8">
+                </div>
+            </div>
+            <p1>Do you agree for using that info?(test)</p1>
+            <div>
+                <input type="checkbox" id="cheky" onclick="Clicked()">
+            </div>
+        </div>
+
+
+    </div>
+    
+    <!--How to check if a button is cheked--> 
+    <script>
+    document.getElementById('button').onclick = function() {
+        alert("Hi");
+    }
+    </script>
+    <script>
+        document.getElementById('alertbt').onclick = function() {
+            alert("Hello! This is a test(not real)");
+        }
+    </script>
+    <script>
+        document.getElementById("cheky").onclick = function() {
+        alert("Thanks!");
+    }
+    </script>
+    <!--id-used to check stuff || type || name of button || name in the bar made-->
+
+    <div class="btn" onclick="Reseter()">
+        Reset
+    </div>
+    <!-- Script if button for reset is pressed -->
+</body>
+</html>
+<!--
+<input type="button">depending but its a button
+<input type="checkbox">check
+<input type="color">choose coulor
+<input type="date">Calendar to choose a custom date
+<input type="datetime-local">
+<input type="email">needs email
+<input type="file">can choose a fail to submit or add
+<input type="hidden">idk
+<input type="image">random image
+<input type="month">seperat month
+<input type="number">only number
+<input type="password">hides charcthers
+<input type="radio">idk
+<input type="range">bar to choose a range from lane
+<input type="reset">reset button
+<input type="search">search button
+<input type="submit">button to submit
+<input type="tel">idk
+<input type="text">default
+<input type="time">time of day
+<input type="url">url 
+<input type="week">seperet week
+
+-->
