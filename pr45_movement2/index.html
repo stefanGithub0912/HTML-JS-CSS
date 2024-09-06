@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Movement 2</title>
+</head>
+<body id="body">
+    <div>
+        <button onkeydown="keyDown()" id="md">Move down</button>
+        <script>     
+            var countClicks = 0;
+            function keyDown(){
+                if(event.key = 83){
+                    var moveD = document.getElementById("md");
+                    countClicks = countClicks + 5;
+                    moveD.style.marginTop = countClicks+"px";
+                }
+
+            }
+        </script>
+    </div>
+</body>
+</html>

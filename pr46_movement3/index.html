@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Movement 2</title>
+</head>
+<body id="body">
+    <div>
+        <button onkeydown="MoveBtn()" id="md">Use:WASD</button>
+        <script>    
+            var bodyScreen = document.getElementById('body');
+            bodyScreen.addEventListener('keydown' , MoveBtn );
+            
+            
+            var marginLeft = 0 ;
+            var marginTop = 0;
+            
+            function MoveBtn(event){
+                let check = event.key;
+                console.log(event.key);
+                var moveD = document.getElementById("md");
+                if(check == "s"){
+                    marginTop = marginTop + 5;
+                    moveD.style.marginTop = marginTop+'px';
+                }
+                if(check == "w"){
+                    marginTop = marginTop - 5;
+                    if(marginTop < 0){
+                        marginTop = 0;
+                    }
+                    moveD.style.marginTop = marginTop+"px";
+                }
+                if(check == "d"){
+                   
+                    marginLeft = marginLeft + 5;
+                    moveD.style.marginLeft = marginLeft+"px";
+                }
+                if(check == "a"){
+                    if(marginLeft < 0){
+                        marginLeft = 0;
+                    }
+                    marginLeft = marginLeft - 5;
+                    moveD.style.marginLeft = marginLeft+"px";
+                }
+                
+                console.log(check , " " , marginLeft , " " , marginTop);
+            }
+        </script>
+    </div>
+</body>
+</html>

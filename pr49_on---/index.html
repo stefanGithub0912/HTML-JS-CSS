@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>On...</title>
+</head>
+<body id="body">
+    <div class="box">
+        <button id="click" onclick="clicked()">Onclick </button>
+        <button id="hover" onmouseover="hovered()">Onmouseover </button>
+        <button id="noFocus" onblur="outfocused()">Onblur </button>
+        <p id="textSelected" onselect="textSelect()">Onselect </p>
+        <p id="copy" oncopy="copyed()">Oncopy </p>
+        <button id="scroll" onscroll="scroll()">Onwheel </button>
+        
+        <input type="input" id="onInput" oninput="textInp()">
+        <input type="submit" id="Submit" value="Submit" onchange="submitOn()">
+
+    </div>
+
+</body>
+</html>

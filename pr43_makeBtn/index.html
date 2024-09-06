@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Create button</title>
+</head>
+<body id="body">
+    <div>
+        <button id="btn" onclick="alertTxt()"></button>
+    </div>
+    <div>
+        <button id="rectangle" onclick="formBtn()">Form</button>
+        <button id="circle" onclick="formBtn()">Form</button>
+        <input id="name" placeholder="Name" onchange="nameTxt()">
+        <input type="number" id="width" placeholder="Width" onchange="widthTxt()">
+        <input type="number" id="height" placeholder="Height" onchange="heightTxt()">
+        <input id="functuonality" placeholder="Alert: ..." onchange="alertTxt()">
+        <p1>Border:</p1>
+        <input type="checkbox" id="border" onclick="borderCheck()">
+        <p2>Background:</p2>
+        <input type="color" id="color" onchange="colorChange()">
+
+    </div>
+</body>
+</html>

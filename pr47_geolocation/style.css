@@ -1,0 +1,21 @@
+#location{
+    border: 2px solid black;
+    background-color: gray;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 30px;
+    width: 100px;
+    margin-left: 62px;
+}
+#location:hover{
+    background-color: antiquewhite;
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.box{
+    margin-left: 40%;
+    margin-top: 20%;
+}
